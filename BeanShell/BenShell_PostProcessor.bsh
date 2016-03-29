@@ -1,0 +1,28 @@
+// Start the Log
+print("########################################################");
+print("Starting Test");
+
+// List All Context itens and it's values
+print(ctx.getCurrentSampler() );
+for (i=ctx.getCurrentSampler().propertyIterator(); i.hasNext(); ) //Last_parameter is blank
+{	v = i.next();
+	print( v.getName()+ ":" + v);
+	}
+//ctx.getCurrentSampler().getProperty(
+
+//Show data
+print( data.length );
+k = "";
+for(i=0;i<data.length;i++)
+{	k = k + (char)data[i]; //Convert to Char because to see a HTML output
+	}
+print(k);
+
+// data
+//log.info("Starting Test");
+    //print( );
+//ctx.getCurrentSampler();
+// log.info(data);
+// PropertyIterator
+//for (int i=0; i<5; i++)
+//    print(i);

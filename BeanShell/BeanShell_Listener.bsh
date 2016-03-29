@@ -1,0 +1,6 @@
+print( sampleEvent.getHostname() );
+s = sampleEvent.getResult();
+print(s);
+print(s.getErrorCount());
+print(s.getSubResults());
+ 
